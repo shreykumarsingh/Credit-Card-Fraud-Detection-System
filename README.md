@@ -110,8 +110,8 @@ Trained on the full Kaggle Credit Card Fraud dataset (284,807 transactions, 492 
 Clone the repository:
 
 ```bash
-git clone https://github.com/shreykumarsingh/Credit-Card-Fraud-Detection-System.git
-cd Credit-Card-Fraud-Detection-System
+git clone https://github.com/shreykumarsingh/TrueCard.git
+cd TrueCard
 ```
 
 Install dependencies:
