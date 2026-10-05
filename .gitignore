@@ -1,0 +1,14 @@
+# Dataset (exceeds GitHub's 100MB limit)
+creditcard.csv
+
+# Python environment and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS / OS metadata
+.DS_Store
+Thumbs.db
