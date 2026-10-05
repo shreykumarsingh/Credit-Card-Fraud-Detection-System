@@ -1,4 +1,4 @@
-# 💳 Credit Card Fraud Detection System
+# 💳 TrueCard - Credit Card Fraud Detection System
 
 This project uses Machine Learning techniques to detect fraudulent credit card transactions using classification algorithms and imbalanced data handling methods.
 

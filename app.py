@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
-    page_title="Credit Card Fraud Detection",
+    page_title="TrueCard - Credit Card Fraud Detection",
     page_icon="💳",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -57,7 +57,7 @@ except FileNotFoundError as e:
     st.stop()
 
 # ---------------- SIDEBAR ----------------
-st.sidebar.title("💳 Fraud Detection")
+st.sidebar.title("💳 TrueCard")
 page = st.sidebar.radio("Navigate", ["Dashboard", "Single Prediction", "Batch Prediction", "Model Comparison"])
 
 st.sidebar.markdown("---")
@@ -70,7 +70,7 @@ st.sidebar.info(
 
 # ---------------- DASHBOARD ----------------
 if page == "Dashboard":
-    st.title("💳 Credit Card Fraud Detection Dashboard")
+    st.title("💳 TrueCard - Fraud Detection Dashboard")
 
     # Key metrics
     col1, col2, col3, col4 = st.columns(4)
